@@ -1,6 +1,6 @@
 from skyfield.api import load
 
-# Create a timescale and ask the current time.
+
 ts = load.timescale()
 t = ts.now()
 
